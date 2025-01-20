@@ -1,0 +1,4 @@
+*.conf
+logs
+airflow_venv
+__pycache__
