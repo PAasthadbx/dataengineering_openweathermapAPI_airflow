@@ -31,6 +31,8 @@ To interact with the weather API, you will need to set up an Airflow connection 
         Login: (your API key if needed)
 
 Make sure to replace the API key in the endpoint URL or set it as a secret in your Airflow environment.
+
+
 Transform and Load Function
 
 The transform_load_data function should be defined in the pipelines/transform_load_data.py file. This function is responsible for processing and loading the extracted weather data.
